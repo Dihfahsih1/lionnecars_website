@@ -2426,7 +2426,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../images/minibus/london.gif) center;
+  background: url(../images/minibus/yeah.jpg) center;
   background-size: cover;
 }
 .form1{
@@ -2434,7 +2434,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .overlay-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(10, 0, 0, 0.8);
 }
 
 @media (max-width: 767px) {
