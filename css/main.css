@@ -2426,11 +2426,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../images/minibus/yeah.jpg) center;
+  background: url(../images/header.jpg) center;
   background-size: cover;
-}
-.form1{
-  background:url(../images/featuresPng.png);
 }
 
 .banner-area .overlay-bg {
@@ -2773,7 +2770,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- End review Area -------------*/
 /*-------- start home-calltoaction Area -------------*/
 .home-calltoaction-area {
-  background: url(../images/smile.jpg) center;
+  background: url(../images/awesome.png) center;
   background-size: cover;
 }
 
