@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
+<html lang="en-gb" dir="ltr" vocab="http://schema.org/">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/images/logo.ico">
+        <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png">
+        <meta charset="utf-8" />
 		<title>Lionnecars</title>
 		<meta charset="utf-8">
 		<meta name = "format-detection" content = "telephone=no" />
-		<link rel="icon" href="images/favicon.ico">
-		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="icon" href="images/logo.ico">
+		<link rel="shortcut icon" href="images/logo.ico" />
 		<link rel="stylesheet" href="booking/css/booking.css">
 		<link rel="stylesheet" href="css/camera.css">
 		<link rel="stylesheet" href="css/owl.carousel.css">
@@ -39,7 +44,7 @@
     					  <div style="float:right;margin-top:18%;">
     					   <h4>24 Hours Booking Online Call Us:</h4>
     						book your service
-    						<h4>+44 7886 511186</h4>
+    						<h4>0779789253</h4>
     					  </div>
 						</div>
 					</div>
@@ -53,9 +58,9 @@
 					<nav id="nav-menu-container">
 						<ul class="nav-menu" >
 							<li class="menu-active"><a href="index.html"  style="color: black" >Home</a></li>
-							<li><a href="#" style="color: black">About</a></li>
-							<li><a href="#" style="color: black">Services</a></li>
-							<li><a href="#" style="color: black">Contact</a></li>
+							<li><a href="index-2.html" style="color: black">About</a></li>
+							<li><a href="index-3.html" style="color: black">Services</a></li>
+							<li><a href="index-4.html" style="color: black">Contact</a></li>
 						</ul>
 					</nav><!-- #nav-menu-container -->
 					</div>
@@ -66,27 +71,31 @@
 			<div class="overlay overlay-bg"></div>
 			<div class="container">
 				<div class="row fullscreen d-flex align-items-center justify-content-between">
-					<div class="banner-content col-lg-9 col-md-6 " style="margin-top:-15%">
+					<div class="banner-content col-lg-9 col-md-6 " style="margin-top:-17%">
 						<h1 style="color:black; font-size:500%">Need a ride?</h1>
 						<h2 class="pt-10 pb-10 text-white" style="font-size:330%">
 							LIONNECARS has the best for you
 						</h2>
 
 					</div>
-					<div class="col-lg-4  col-md-6 header-right" style="margin-right:-10%; margin-top:-10%; background:none; border:none">
-						<h4 class="pb-30">Book Your Taxi Online!</h4>
+					<div class="col-lg-4  col-md-6 header-right" style="margin-right:-10%; background:none; border:none">
+					    <h4 style="padding-top:0px">Book Your Taxi Online!</h4> 
+						
 						<form action="mail.php" class="form" method="post">
+						       
 								<div class="from-group">
 									<input style="font-size:150%; color:white;" class="form-control txt-field" type="text" name="name" placeholder="Your name">
 									<input style="font-size:150%; color:white"  class="form-control txt-field" type="email" name="email" placeholder="Email address"  onblur="this.placeholder = 'Email address'">
 									<input style="font-size:150%; color:white"  class="form-control txt-field" type="tel" name="phone" placeholder="Phone number" onblur="this.placeholder = 'Phone number'">
 								</div>
 								<div class="form-group">
-    								<select>
+    								<select name="cars">
     								    <option selected>Select Vehicle</option>
     									 <option value="mvp">MVP</option>
                                          <option value="minibus">Minibus</option>
                                          <option value="executive">Executive</option>
+                                          <option value="saloon">Saloon</option>
+                                           <option value="estate">Estate</option>
                                     </select>
 								</div>
 								<div class="form-group">
@@ -95,15 +104,7 @@
 								<div class="form-group">
 									<input style="font-size:150%; color:white"  class="form-control txt-field" type="text" name="destination" placeholder="Your destination Location" onblur="this.placeholder = 'Your destination'">
 								</div>
-								<div class="form-group">
-									<div class="input-group dates-wrap">
-										<input style="font-size:150%; color:white"  id="datepicker2" class="dates form-control" name="date"  placeholder="Date & time" type="text">
-										<div class="input-group-prepend">
-											<span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
-										</div>
-									</div>
-								</div>
-								<div class="form-group">
+								 <div class="form-group">
 									<button style="font-size:150%; color:white"  type="submit" class="btn btn-success btn-lg btn-block text-center text-uppercase">Make reservation</button>
 								</div>
 						</form>
@@ -111,38 +112,67 @@
 				</div>
 			</div>
 		    </section>
+		    <br>
+		    <div class="form-h1-text">
+		        <h1 class="font-weight-normal text-center">Lionnecars offers you a wide range of <i class="fa fa-car"></i> categories</h1>
+		    </div>
 			<div class="row col-lg-12">
 					<div class="col-lg-4">
-					  <p>
-						<a href="index2.html" class="type"><img src="images/fleet/ford.jpeg" alt=""><span class="type_caption">MPV:- ford galaxy cars</span></a>
+						<a href="index2.html" class="type"><img src="images/fleet/ford.jpeg" alt=""><span class="type_caption">MPV Cars</span></a>
 						<ul class="list-group"><h5>This Type of vehicle can accomodate maximum</h5>
 
 							<li class="list-group-item" >Passengers : 5</li>
 							<li class="list-group-item" > Luggage : 4</li>
 							<li class="list-group-item" > Hand Luggage : 3</li>
 						</ul>
-					 </p>
 					</div>
 					<div class="col-lg-4">
-					  <p>
-						<a href="index2.html" class="type"><img src="images/fleet/minibus-vito.jpeg" alt=""><span class="type_caption">Minibus:- Vito Cars</span></a>
+						<a href="index2.html" class="type"><img src="images/fleet/minibus-vito.jpeg" alt=""><span class="type_caption">Minibu Cars</span></a>
 						<ul class="list-group"><h5>This Type of vehicle can accomodate maximum</h5>
 
 							<li class="list-group-item" >Passengers : 8</li>
 							<li class="list-group-item" > Luggage : 5</li>
 							<li class="list-group-item" > Hand Luggage : 8</li></ul>
-					 </p>
+					 
 					</div>
 					<div class="col-lg-4">
-					<p>
-						<a href="index2.html" class="type"><img src="images/fleet/executive1.jpeg" alt=""><span class="type_caption">Executive:-Mercedes E Class</span></a>
+						<a href="index2.html" class="type"><img src="images/fleet/executive1.jpeg" alt=""><span class="type_caption">Executive Cars</span></a>
 						<ul class="list-group"><h5>This Type of vehicle can accomodate maximum</h5>
 
-							<li class="list-group-item" >Passengers : up to *4</li>
-							<li class="list-group-item" > Luggage : up to *3</li>
-							<li class="list-group-item" > Hand Luggage : up to *3	</li></ul>
-					</p>
+							<li class="list-group-item" >Passengers :4</li>
+							<li class="list-group-item" > Luggage : 3</li>
+							<li class="list-group-item" > Hand Luggage : 3	</li></ul>
+					
 					</div>
+						<div class="col-lg-4">
+						<a href="index2.html" class="type"><img src="images/fleet/saloon.PNG" alt=""><span class="type_caption">Saloon Cars</span></a>
+						<ul class="list-group"><h5>This Type of vehicle can accomodate maximum</h5>
+
+							<li class="list-group-item" >Passengers : 4</li>
+							<li class="list-group-item" > Luggage : 2</li>
+							<li class="list-group-item" > Hand Luggage : 2</li></ul>
+					
+					   </div>
+					   	<div class="col-lg-4">
+							<a href="index2.html" class="type"><img src="images/fleet/estate.PNG" alt=""><span class="type_caption">Estate Cars</span></a>
+							<ul class="list-group"><h5>This Type of vehicle can accomodate maximum</h5>
+
+								<li class="list-group-item" >Passengers : 4</li>
+								<li class="list-group-item" > Luggage : 3</li>
+								<li class="list-group-item" > Hand Luggage : 2</li></ul>
+					
+					     </div>
+
+					     <div class="col-lg-4">
+							<a href="index2.html" class="type"><img src="images/airport.PNG" alt=""><span class="type_caption"></span></a>
+							<ul class="list-group"><h5>Services offered by Lionnecars</h5>
+
+								<li class="list-group-item" >Airport Transfers</li>
+								<li class="list-group-item" > Taxi And Private Hire</li>
+								<li class="list-group-item" > VIP & Chauffeur Service</li></ul>
+								<a href="index2.html"> <button class="primary-btn">More</button></a>
+					
+					     </div>
 					<div class="clear"></div>
 			</div>
 			<div class="container_12">
@@ -189,7 +219,7 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-		<section class="home-calltoaction-area relative" style="height:150%">
+		<!--<section class="home-calltoaction-area relative" style="height:150%">
 			<div class="container">
 				<div class="overlay overlay-bg"></div>
 				<div class="row align-items-center section-gap">
@@ -204,11 +234,11 @@
 					</div>
 				</div>
 			</div>
-		</section>
-			<div class="c_phone">
+		</section>--->
+			<div class="c_phone" style="background-color: white">
 				<div class="container_12">
-					<div class="grid_12">
-						<div class="fa fa-phone"></div>+44 7886 511186
+					<div class="grid_12" style="color:black">
+						<div class="fa fa-phone"></div>0779789253
 						<span>BOOK NOW!</span>
 					</div>
 					<div class="clear"></div>
@@ -275,11 +305,10 @@
 						</div>
 				</div>
 
-					<p class="mt-80 mx-auto footer-text col-lg-12" style="margin-bottom:05%; font-size:135%">
+					<p class="mt-80 mx-auto footer-text col-lg-12" style="margin-bottom:05%; font-size:120%">
                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by Linnecars Ltd
                          </p>
 			</footer>
-			<!-- End footer Area -->
 		<script>
 			$(function (){
 				$('#bookingForm').bookingForm({
